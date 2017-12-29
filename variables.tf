@@ -111,7 +111,7 @@ variable "volume_tags" {
 }
 
 variable "root_block_device" {
-  description = "Customize details about the root block device of the instance. See Block Devices below for details"
+  description = "Customize details about the root block device of the instance."
   default     = []
 }
 
